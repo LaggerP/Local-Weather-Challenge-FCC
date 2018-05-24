@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Local Weather Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"><h1>Welcome | Local Weather Challenge API - FreeCodeCamp</h1></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center alert alert-danger" role="alert">
+                <h4 class="alert-heading">Desafio creado por LaggerP</h4>
+                <p>La siguiente página muestra la temperatura en Fº y Cº según su posición actual</p>
+                <hr>
+                <p class="mb-0">Para su funcionamiento ES NECESARIO que permita que su navegador acceda a su ubicación</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <div class="card text-center">
+                    <div class="card-header">
+                        API - Weather 
+                    </div>
+                    <div class="card-body">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h3 class="card-title">Temperatura actual</h3>
+                            <span id="idCiudad">(Cargando ubicación - Si tarda, verifique que tenga activada la ubicación en su navegador)</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <p>
+                                <span id="idTempertura"></span>
+                                <span id="idTemperaturaUnidad"></span>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                    <button type="button" class="btn btn-link" id="idCelsius">Celsius</button>
+                                    <button type="button" class="btn btn-link" id="idFahrenheit">Fahrenheit</button>
+                                </div>
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <img id="idIcono" src="" width="" height="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
