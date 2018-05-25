@@ -21,6 +21,7 @@ function calcularTemperatura(lat, lon){
     $.getJSON(apiUrlFinal, function(data){
         $("#idCiudad").text(data.name); 
         $("#idTempertura").text(data.main.temp + " Grados Celsius");
+        $("#idIcon").attr('src',data.weather[0].icon);
     })
     var temperaturaActualCelsius = $("#idTempertura").text();
     $("#idFahrenheit").click(function () {

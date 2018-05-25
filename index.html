@@ -16,21 +16,23 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"><h1>Welcome | Local Weather Challenge API - FreeCodeCamp</h1></div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center alert alert-danger" role="alert">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center alert alert-warning" role="alert">
                 <h4 class="alert-heading">Desafio creado por LaggerP</h4>
                 <p>La siguiente página muestra la temperatura en Fº y Cº según su posición actual</p>
                 <hr>
                 <p class="mb-0">Para su funcionamiento ES NECESARIO que permita que su navegador acceda a su ubicación</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <div class="card text-center">
-                    <div class="card-header">
+                <div class="card text-center ">
+                    <div class="card-header bg-success">
                         API - Weather 
                     </div>
                     <div class="card-body">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                             <h3 class="card-title">Temperatura actual</h3>
                             <span id="idCiudad">(Cargando ubicación - Si tarda, verifique que tenga activada la ubicación en su navegador)</span>
+                            <br>
+                            <img id="idIcon" src="" alt="" height="150px" width="150px">
                         </div>
                     </div>
                     <div class="card-body">
@@ -38,17 +40,20 @@
                             <p>
                                 <span id="idTempertura"></span>
                                 <span id="idTemperaturaUnidad"></span>
+                               
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                                     <button type="button" class="btn btn-link" id="idCelsius">Celsius</button>
                                     <button type="button" class="btn btn-link" id="idFahrenheit">Fahrenheit</button>
                                 </div>
                             </p>
-                            
                         </div>
                     </div>
                     <div class="card-footer text-muted">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                            <img id="idIcono" src="" width="" height="">
+                            
+                            <a href="https://github.com/LaggerP"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="" width="50px"></a>
+
+                            <a href="https://www.freecodecamp.org/laggerp"><img src="https://design-style-guide.freecodecamp.org/downloads/freeCodeCamp.jpg" alt="" width="150px"></a>
                         </div>
                     </div>
                 </div>
